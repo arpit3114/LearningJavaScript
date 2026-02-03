@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(49, 47, 47);
+    height: 100%;
+}
+
+input{
+    display: block;
+}
+
+.card{
+    padding: 20px;
+    max-width: 270px;
+    border-radius: 15px;
+    margin-top: 40px;
+    border: 2px solid orange;
+    display: inline-block;
+    color: whitesmoke;
+}   
+
+.profilepics{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profilepics img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h5{
+    margin: 5px;
+}
+
+.card p{
+    font-size: 17px; 
+    margin-top: 8px;
+}
